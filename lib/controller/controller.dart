@@ -17,7 +17,7 @@ class MyController extends GetxController {
 
   TextEditingController searchController = TextEditingController();
   String _searchCity = ''; //DEFAULT CITY
-  String _yourKey = ''; //INSERT YOUR KEY
+  String _yourKey = ''; // ADD YOUR  OPENWEATHER KEY
   bool _isLoading = true;
 
   String _cityName = '';

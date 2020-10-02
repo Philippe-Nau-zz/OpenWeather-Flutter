@@ -44,7 +44,7 @@ class TemperatureBox extends StatelessWidget {
                 ],
               ),
             )
-          : CircularProgressIndicator(),
+          : Center(child: CircularProgressIndicator()),
     );
   }
 }

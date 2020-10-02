@@ -10,7 +10,7 @@ class CardListview extends StatelessWidget {
   Widget build(BuildContext context) {
     return LayoutBuilder(
       builder: (context, constraints) => Card(
-        color: Colors.white.withOpacity(0.9),
+        color: Colors.white30,
         child: Container(
           width: 120,
           child: Column(
@@ -21,7 +21,7 @@ class CardListview extends StatelessWidget {
                   child: Text(
                     this.titleCard,
                     style: TextStyle(
-                      color: Colors.blue[900],
+                      color: Colors.white,
                       fontSize: 16,
                       fontWeight: FontWeight.bold,
                     ),
@@ -38,7 +38,7 @@ class CardListview extends StatelessWidget {
                           child: Text(
                             this.info,
                             style: TextStyle(
-                              color: Colors.blue[900],
+                              color: Colors.white,
                               fontWeight: FontWeight.bold,
                             ),
                           ),

@@ -3,10 +3,10 @@ import 'package:flutter/services.dart';
 import 'package:weather/views/homePage.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(OpenWeather());
 }
 
-class MyApp extends StatelessWidget {
+class OpenWeather extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     SystemChrome.setPreferredOrientations([
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     ]);
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'OpenWeather',
       theme: ThemeData(),
       home: HomePage(),
     );
