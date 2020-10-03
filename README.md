@@ -1,16 +1,17 @@
-# weather
+[![Generic badge](https://img.shields.io/badge/API-OpenWeather-orange)](https://openweathermap.org)
+[![made-with-Markdown](https://img.shields.io/badge/Made%20with-Flutter-blue.svg)](https://flutter.dev/)
 
-A new Flutter project.
+# Weather App - Flutter
 
-## Getting Started
+![Image](https://i.ibb.co/254bgBS/weather.gif)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Libs:
+ * [GetX](https://pub.dev/packages/get)
+ * [HTTP](https://pub.dev/packages/http)
+ 
+ # Start
+  * [Create Key - Current Weather Data ](https://openweathermap.org/api);
+  * [Access and create your key](https://openweathermap.org/api)
+  * Access [/lib/controller/controller.dart](https://github.com/Philippe-Nau/OpenWeather-Flutter/blob/master/lib/controller/controller.dart)
+  * Insert your key  _yourKey = ''
+  * Set your city _searchCity = ''
