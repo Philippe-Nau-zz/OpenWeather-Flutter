@@ -11,7 +11,6 @@
  
  # Start
   * [Create Key - Current Weather Data ](https://openweathermap.org/api);
-  * [Access and create your key](https://openweathermap.org/api)
   * Access [/lib/controller/controller.dart](https://github.com/Philippe-Nau/OpenWeather-Flutter/blob/master/lib/controller/controller.dart)
   * Insert your key  _yourKey = ''
   * Set your city _searchCity = ''
